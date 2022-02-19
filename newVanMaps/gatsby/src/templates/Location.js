@@ -21,11 +21,11 @@ export default function SingleLocationPage({ data: { location } }) {
             <button type="button">Google Maps</button>
           </a>
         </p>
-        <p>
+        {/* <p>
           <a href={location.appleMapsUrl}>
             <button type="button">Apple Maps</button>
           </a>
-        </p>
+        </p> */}
       </div>
     </>
   );

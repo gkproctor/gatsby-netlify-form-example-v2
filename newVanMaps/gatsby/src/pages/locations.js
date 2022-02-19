@@ -24,7 +24,7 @@ export const query = graphql`
         }
         radioChannel
         additionalInfo
-        appleMapsUrl
+        # appleMapsUrl
         googleMapsUrl
         image {
           asset {

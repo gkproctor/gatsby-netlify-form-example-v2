@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-info-js": () => import("./../../../src/pages/info.js" /* webpackChunkName: "component---src-pages-info-js" */),
   "component---src-pages-locations-js": () => import("./../../../src/pages/locations.js" /* webpackChunkName: "component---src-pages-locations-js" */),
+  "component---src-pages-thanks-js": () => import("./../../../src/pages/thanks.js" /* webpackChunkName: "component---src-pages-thanks-js" */),
   "component---src-templates-location-js": () => import("./../../../src/templates/Location.js" /* webpackChunkName: "component---src-templates-location-js" */)
 }
 

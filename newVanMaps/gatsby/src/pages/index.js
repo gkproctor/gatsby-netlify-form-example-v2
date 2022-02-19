@@ -11,7 +11,7 @@ export default function HomePage() {
         <h3>Search Bar</h3>
         <div className="mark">
           <Link to="/locations">
-            Here is the list of all the locations availble
+            Here is the list of all the locations available
           </Link>
         </div>
       </div>

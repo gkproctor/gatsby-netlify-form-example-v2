@@ -15,6 +15,7 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("/Users/gkp/Projects/newVanMaps/gatsby/src/pages/index.js"))),
   "component---src-pages-info-js": hot(preferDefault(require("/Users/gkp/Projects/newVanMaps/gatsby/src/pages/info.js"))),
   "component---src-pages-locations-js": hot(preferDefault(require("/Users/gkp/Projects/newVanMaps/gatsby/src/pages/locations.js"))),
+  "component---src-pages-thanks-js": hot(preferDefault(require("/Users/gkp/Projects/newVanMaps/gatsby/src/pages/thanks.js"))),
   "component---src-templates-location-js": hot(preferDefault(require("/Users/gkp/Projects/newVanMaps/gatsby/src/templates/Location.js")))
 }
 
