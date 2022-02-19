@@ -14,7 +14,7 @@ const NavStyles = styled.nav`
     text-align: center;
     list-style: none;
     display: grid;
-    grid-template-columns: 1fr 1fr auto 1fr 1fr;
+    grid-template-columns: 1fr auto 1fr 1fr;
     grid-gap: 2rem;
     align-items: center;
     margin-top: -6rem;
@@ -24,9 +24,9 @@ const NavStyles = styled.nav`
     transform: rotate(var(--rotate));
     order: 1;
     &:nth-child(1) {
-      --rotate: 1deg;
+      --rotate: 2deg;
     }
-    &:nth-child(2) {
+    &:nth-child(3) {
       --rotate: -2.5deg;
     }
     &:nth-child(4) {
@@ -81,13 +81,13 @@ export default function Nav() {
         <li>
           <Link to="/info">Info</Link>
         </li>
-        <li>
-          <Link to="/locations">Locations List</Link>
-        </li>
         <li className="logo-item">
           <Link to="/">
             <Logo />
           </Link>
+        </li>
+        <li>
+          <Link to="/locations">Locations List</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>

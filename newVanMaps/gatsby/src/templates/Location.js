@@ -12,6 +12,8 @@ export default function SingleLocationPage({ data: { location } }) {
           <span className="mark">{location.name}</span>
         </h2>
         <Img fluid={location.image?.asset?.fluid} />
+        {/* TO FIX --- additional information should only show if there is 
+        additional information otherwise it should not be visible */}
         <h3 className="mark">Additional Information - </h3>
         <p className="mark">{location.additionalInfo}</p>
         <p>Use Channel {location.radioChannel}</p>
