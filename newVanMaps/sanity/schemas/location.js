@@ -46,20 +46,20 @@ export default {
           }),
       },
     },
-    {
-      title: 'Apple Maps URL Link',
-      name: 'appleMapsUrl',
-      type: 'url',
-      options: {
-        title: 'Link',
-        name: 'href',
-        type: 'url',
-        validation: (Rule) =>
-          Rule.uri({
-            scheme: ['http', 'https'],
-          }),
-      },
-    },
+    // {
+    //   title: 'Apple Maps URL Link',
+    //   name: 'appleMapsUrl',
+    //   type: 'url',
+    //   options: {
+    //     title: 'Link',
+    //     name: 'href',
+    //     type: 'url',
+    //     validation: (Rule) =>
+    //       Rule.uri({
+    //         scheme: ['http', 'https'],
+    //       }),
+    //   },
+    // },
     // {
     //   title: 'Location Coordinates',
     //   name: 'coordinates',

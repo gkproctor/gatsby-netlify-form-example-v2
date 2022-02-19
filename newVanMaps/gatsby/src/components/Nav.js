@@ -47,9 +47,9 @@ const NavStyles = styled.nav`
       --columns: 3;
       font-size: 2rem;
     }
-    /* &[aria-current='page'] {
+    &[aria-current='page'] {
       color: var(--red);
-    } */
+    }
   }
   @media (max-width: 600px) {
     --columns: 3;
