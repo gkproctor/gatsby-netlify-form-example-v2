@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "swyx <swyx@dontemail.me>",
   "dependencies": {
-    "gatsby": "^2.13.35",
+    "gatsby": "^5.5.0",
     "gatsby-plugin-react-helmet": "^3.1.2",
     "netlify-lambda": "^1.6.0",
     "react": "^16.8.6",
